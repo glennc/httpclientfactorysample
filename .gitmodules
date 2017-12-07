@@ -1,0 +1,3 @@
+[submodule "lib/HttpClientFactory"]
+	path = lib/HttpClientFactory
+	url = git@github.com:aspnet/HttpClientFactory.git

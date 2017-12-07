@@ -1,0 +1,19 @@
+version: '2'
+services:
+  webapp:
+    build:
+      context: .
+      dockerfile: ./src/WebUI/Dockerfile
+    image: web_ui
+    depends_on: [ values ]
+    environment:
+      - values__uri=http://values/
+    ports:
+      - 80
+  values:
+    build:
+      context: .
+      dockerfile: ./src/ValuesService/Dockerfile
+    image: values_service
+    expose:
+      - 80
