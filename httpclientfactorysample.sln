@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "compose", "compose", "{25BD
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI.WebForms", "src\WebUI.WebForms\WebUI.WebForms.csproj", "{192CFDAC-8396-4660-B024-C41A43461813}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{68CA6B22-ADB8-4F55-B8B5-2F2CAADFF903}.Release|x64.Build.0 = Release|Any CPU
 		{68CA6B22-ADB8-4F55-B8B5-2F2CAADFF903}.Release|x86.ActiveCfg = Release|Any CPU
 		{68CA6B22-ADB8-4F55-B8B5-2F2CAADFF903}.Release|x86.Build.0 = Release|Any CPU
+		{192CFDAC-8396-4660-B024-C41A43461813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192CFDAC-8396-4660-B024-C41A43461813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192CFDAC-8396-4660-B024-C41A43461813}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{192CFDAC-8396-4660-B024-C41A43461813}.Debug|x64.Build.0 = Debug|Any CPU
+		{192CFDAC-8396-4660-B024-C41A43461813}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{192CFDAC-8396-4660-B024-C41A43461813}.Debug|x86.Build.0 = Debug|Any CPU
+		{192CFDAC-8396-4660-B024-C41A43461813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192CFDAC-8396-4660-B024-C41A43461813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192CFDAC-8396-4660-B024-C41A43461813}.Release|x64.ActiveCfg = Release|Any CPU
+		{192CFDAC-8396-4660-B024-C41A43461813}.Release|x64.Build.0 = Release|Any CPU
+		{192CFDAC-8396-4660-B024-C41A43461813}.Release|x86.ActiveCfg = Release|Any CPU
+		{192CFDAC-8396-4660-B024-C41A43461813}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,6 +108,7 @@ Global
 		{973C38AE-CAC6-4F01-B87F-91079F8D72F3} = {7C7388DA-B521-4E90-B4AD-E8B791A78019}
 		{1F8A1C04-4B3B-4F96-BA14-9B29AB4F9B60} = {973C38AE-CAC6-4F01-B87F-91079F8D72F3}
 		{68CA6B22-ADB8-4F55-B8B5-2F2CAADFF903} = {BCE40E9A-37E9-4CF0-A1A0-72F189F7AD3F}
+		{192CFDAC-8396-4660-B024-C41A43461813} = {5209BD2D-98B7-47E4-97FB-623FE63112DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0105D8A5-3F87-4AAE-BEC8-76E46D55BA68}
