@@ -10,19 +10,18 @@ namespace WebUI.Pages
 {
     public class IndexModel : PageModel
     {
-        private ValuesService _service;
+        private ValuesService _valuesService;
 
-        [BindProperty]
-        public IEnumerable<string> Values { get; set; }
+        public IEnumerable<string> Values;
 
-        public IndexModel(ValuesService service)
+        public IndexModel(ValuesService valuesService)
         {
-            _service = service;
+            _valuesService = valuesService;
         }
 
         public async Task OnGet()
         {
-            Values = await _service.GetValues();
+            Values = await _valuesService.GetValues();
         }
     }
 }

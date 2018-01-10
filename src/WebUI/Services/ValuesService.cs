@@ -20,6 +20,7 @@ namespace WebUI.Services
 
         public ValuesService() { }
 
+
         public ValuesService(HttpClient client, IMemoryCache cache, ILogger<ValuesService> logger)
         {
             Client = client;
@@ -31,7 +32,7 @@ namespace WebUI.Services
         {
             var result = await Client.GetAsync("api/values");
             var resultObj = Enumerable.Empty<string>();
-            //TODO: This will be a try/catch with polly.
+
             if (result.IsSuccessStatusCode)
             {
                 resultObj = JsonConvert.DeserializeObject<IEnumerable<string>>(await result.Content.ReadAsStringAsync());

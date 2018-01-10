@@ -67,6 +67,5 @@ namespace WebUI.Tests
                 return Task.FromResult(_handler(request));
             }
         }
-
     }
 }
